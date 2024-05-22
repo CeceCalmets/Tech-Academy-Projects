@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>One Page Website</title>
+  </head>
+  <body>
+<!--navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg bg-info">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/Home/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Resume/">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Aboout/">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Contact/">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Profile/">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Other/">Other</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+<!--/navbar-->
+<!--title-->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Portfolio</h1>
+    <p class="lead">Cece's portfolio</p>
+    </div>
+</div>
+<!--/title-->
+
+<!--About section-->
+  </br>
+    <H1>One Page Website</H1>
+    <div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">
+    <p>I possesses a deep understanding of the intricacies of the internet, 
+      including programming languages, web frameworks, and databases. I have a 
+      grasp of how to design, build, and maintain websites, applications, 
+      and mobile apps, using various technologies such as HTML, 
+      CSS, JavaScript, and server-side languages like PHP, Ruby, and Python. 
+      I also understand how to ensure the security, scalability, and performance 
+      of digital products, as well as how to troubleshoot and debug issues that may 
+      arise. A good web developer is not only skilled in writing clean and efficient 
+      code, but also has a keen eye for user experience, visual design, 
+      and interaction design.
+    </p>
+  </h4>
+  <div class="col">
+    <h3>resume</h3>
+    <ul class="list-group">
+      <li class="list-group-item">HTML</li>
+      <li class="list-group-item">CSS</li>
+      <li class="list-group-item">JavaScript</li>
+      <li class="list-group-item">PHP</li>
+    </ul>
+  </div>
+  </div>
+<!--/About section-->
+<!--showtime-->
+  </br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img class="card-img-top" src="https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_23-2149365021.jpg?t=st=1715694727~exp=1715698327~hmac=644d02bbcbc5f66b62e1cd2328f46175cc742db1ce69b6b1bd323be11730cf06&amp;w=1380" style="object-fit: cover" alt="Card image cap">
+        <h2>Portfolio</h2>
+        <p>Portolio is a collection of Cece's work. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+      </div>
+  
+  <h6>
+  <span class="badge bg-primary">Work 1</span>
+  <span class="badge bg-secondary">Work 2</span>
+  <span class="badge bg-success">Work 3</span>
+  <span class="badge bg-danger">Work 4</span>
+  </h6>
+  </div>
+  </div>
+</br>
+<div class="col-sm-4">
+  <div class="card h-100">
+    <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_23-2149365021.jpg?t=st=1715694727~exp=1715698327~hmac=644d02bbcbc5f66b62e1cd2328f46175cc742db1ce69b6b1bd323be11730cf06&amp;w=1380" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Work 1</h5>
+      <p class="card-text">In this project, I work on the basic fontamental of HTML</p>
+    <h5>
+      <span class="badge bg-primary">HTML</span>
+      <span class="badge bg-secondary">CSS</span>
+      <span class="badge bg-success">JavaScript</span>
+      <span class="badge bg-danger">PHP</span>
+    </h5>
+    </div>
+  </div>
+  <!--/showtime-->
+  <!--contact-->
+  <div class="text-center">
+    <form id="contact-form" method="post" action="contact.php" role="form">
+      <div class="messages"></div>
+      <div class="controls">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_name">Firstname *</label>
+              <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group
+            ">
+              <label for="form_lastname">Lastname *</label>
+              <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+              <div class="help-block
+              with-errors"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_email">Email *</label>
+              <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+              <div class="help-block
+              with-errors"></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group
+            ">
+              <label for="form_phone">Phone</label>
+              <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+              <div class="help-block
+              with-errors"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="form_message">Message *</label>
+              <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+              <div class="help-block
+              with-errors"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <input type="submit" class="btn btn-success btn-send" value="Send message">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-muted
+            "><strong>*</strong> These fields are required.</p>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!--/contact-->
+  <iframe
+        id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="300"
+        height="200"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+    </iframe>
+  <!--footer-->
+    </br>
+    <div class="container my-5">
+      <footer class="footer">
+        <p>&copy; Cece Calmets</p>
+      </footer>
+    
+    <footer>
+        <p>Author: Hege Refsnes
+    <br>
+        <a href="clementine.calmets@my-aolcc.com">
+    clementine.calmets@my-aolcc.com
+        </a>
+        </p>
+    </footer>
+    <!--/footer-->
+  </body>
+</html>
